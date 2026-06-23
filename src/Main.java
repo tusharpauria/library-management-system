@@ -18,7 +18,7 @@ public class Main {
         library.addBook(b1);
         library.addBook(b2);
         library.addBook(b3);
-        System.out.println("===== ALL BOOKS =====\n");
+        System.out.println("\n===== ALL BOOKS =====\n");
         library.displayBooks();
         System.out.println("\n===== SEARCH BY TITLE =====\n");
         library.searchBookByTitle("Java");

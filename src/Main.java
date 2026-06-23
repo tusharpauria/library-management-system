@@ -14,10 +14,24 @@ public class Main {
         Library library = new Library();
         Book b1 = new Book(1, "Java", "James Gosling");
         Book b2 = new Book(2, "Spring", "Rod Johnson");
+        Book b3 = new Book(3, "Hibernate", "Gavin King");
         library.addBook(b1);
         library.addBook(b2);
+        library.addBook(b3);
+        System.out.println("===== ALL BOOKS =====\n");
         library.displayBooks();
-        System.out.println();
+        System.out.println("\n===== SEARCH BY TITLE =====\n");
+        library.searchBookByTitle("Java");
+        System.out.println("\n===== SEARCH BY AUTHOR =====\n");
+        library.searchBookByAuthor("James");
+        System.out.println("\n===== UPDATE BOOK =====");
+        library.updateBook(1, "Java 21", "James Gosling");
+        library.displayBooks();
+        System.out.println("\n===== DELETE BOOK =====");
+        library.removeBook(2);
+        library.displayBooks();
+
+
         StorageBox<Book> box = new StorageBox<>();
         box.setItem(b1);
         System.out.println(box.getItem());

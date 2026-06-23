@@ -24,8 +24,15 @@ public class Book {
         return author;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
     @Override
     public String toString() {
-        return "Book{" + "id= " + id + ", title= " + title + ", author= " + author + '}';
+        return "Book{" + "id= " + id + ", title= '" + title + "'" + ", author= '" + author + "'" + '}';
     }
 }

@@ -1,8 +1,7 @@
-#Library Management System
-
+# Library Management System
 A console-based Library Management System built using Core Java.
 
-##Concepts Used
+## Concepts Used
 - OOP
 - Strings
 - StringBuilder
@@ -16,13 +15,13 @@ A console-based Library Management System built using Core Java.
 - LinkedList
 - Stack
 
-##Features
+## Features
 - Add Books
 - Remove Books
 - Generate Reports
 - Undo Operations
 - Custom Iterable Collection
 
-##Tech Stack
+## Tech Stack
 - Java 17+
 - IntelliJ IDEA

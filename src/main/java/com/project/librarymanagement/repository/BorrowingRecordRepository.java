@@ -18,4 +18,6 @@ public interface BorrowingRecordRepository extends JpaRepository<BorrowingRecord
 
     boolean existsByBookId(Long id);
 
+    boolean existsByMemberId(Long id);
+
 }

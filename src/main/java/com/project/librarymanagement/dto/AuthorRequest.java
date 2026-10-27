@@ -2,9 +2,7 @@ package com.project.librarymanagement.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-import lombok.Data;
 
-@Data
 public class AuthorRequest {
 
     @NotBlank(message = "Author name is required")

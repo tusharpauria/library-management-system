@@ -1,8 +1,5 @@
 package com.project.librarymanagement.dto;
 
-import lombok.Data;
-
-@Data
 public class AuthorResponse {
 
     private Long id;

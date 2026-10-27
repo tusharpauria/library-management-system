@@ -3,11 +3,9 @@ package com.project.librarymanagement.dto;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
-import lombok.Data;
 
 import java.util.Set;
 
-@Data
 public class BookRequest {
 
     @NotBlank(message = "Book title is required")
